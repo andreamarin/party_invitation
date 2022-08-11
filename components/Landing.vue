@@ -1,5 +1,5 @@
 <template>
-  <div class="invitation">
+  <div class="invitation invite-image">
     <div class="title-container">
       <span class="title">
         Mis 60!
@@ -21,13 +21,18 @@ export default {
 
 <style>
 .invitation {
-    height: 100%;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    column-gap: 20px;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  column-gap: 20px;
+}
+.invite-image{
+  background-image: url('@/assets/invite_background.jpg');
+  background-size: cover;
+  background-repeat: repeat;
 }
 .title-container{
   margin-bottom: 0;
