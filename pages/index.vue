@@ -1,6 +1,6 @@
 <template>
-  <div>
-    <Slide :close-on-navigation="true">
+  <div class="holder">
+    <Slide :close-on-navigation="true" no-overlay>
       <a id="landing-menu" href="#landing">
         <span>Inicio</span>
       </a>
@@ -18,50 +18,46 @@
       <div id="landing" class="main-section">
         <landing />
       </div>
-      <div id="location" class="section">
+      <!-- <div id="location" class="section">
         <location />
-      </div>
-      <div id="dress-code" class="section">
-        <dress-code />
-      </div>
-      <div id="faq" class="section">
-        <faq />
-      </div>
+      </div> -->
     </div>
   </div>
 </template>
 
 <script>
-import Landing from '@/components/Landing'
-import DressCode from '@/components/DressCode'
-import Location from '@/components/Location'
-import Faq from '@/components/Faq'
+// import Landing from '@/components/Landing'
+// import Location from '@/components/Location'
 import { Slide } from 'vue-burger-menu'
 
 export default {
   components: {
-    Location,
-    Landing,
-    DressCode,
-    Faq,
+    // Location,
+    // Landing,
     Slide
   },
-  data () {
-    return {
-      open: true
+  head: {
+    bodyAttrs: {
+      class: 'main-body'
     }
   }
 }
 </script>
 
 <style>
+.holder{
+  position: relative;
+}
+
 .all-sections {
+  height: 100%;
   width: 100%;
   display: flex;
   flex-direction: column;
 }
+
 .main-section {
-  height: 800px;
+  height: 100vh;
   width: 100%;
 }
 
@@ -77,5 +73,13 @@ export default {
 .bm-menu {
   background-color: var(--dark-accent);
   color: var(--light-shades);
+}
+
+.bm-cross {
+  background-color: var(--light-shades);
+}
+
+.bm-burger-button{
+  position: relative;
 }
 </style>

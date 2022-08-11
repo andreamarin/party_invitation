@@ -13,7 +13,8 @@
 --light-shades: #F0E7EE;
 }
 
-body {
-    font-family: var(--body-font) !important;
-    background-color: var(--light-shades);
-  }
+.main-body {
+  font-family: var(--body-font) !important;
+  background-color: var(--light-shades);
+  margin: 0;
+}
