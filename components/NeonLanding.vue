@@ -1,84 +1,73 @@
 <template>
-  <div class="invitation">
-    <div class="opacity">
-      <div class="title-container">
-        <span class="title-flicker">
-          Te invito a festejar mis 60!
-        </span>
-      </div>
+  <div class="invitation invite-image">
+    <div class="title-container">
+      <boombox />
+      <span class="title title-neon">
+        Laura's 60!
+      </span>
+    </div>
+    <div class="subtitle-container">
+      <span class="subtitle">
+        8 de octubre de 2022
+      </span>
     </div>
   </div>
 </template>
 
 <script>
-export default {
+import Boombox from './Boombox.vue'
 
+export default {
+  components: { Boombox }
 }
 </script>
 
-<style scoped>
+<style>
 .invitation {
-    /* background-image: url("https://us.123rf.com/450wm/andyvi/andyvi1904/andyvi190400045/121678578-patr%C3%B3n-sin-fisuras-de-memphis-elementos-geom%C3%A9tricos-memphis-al-estilo-de-los-a%C3%B1os-80-ilustraci%C3%B3n-vec.jpg?ver=6"); */
-    /* background-image: url("@/assets/invite_background_v2.jpg"); */
-    /* background-image: url("@/assets/invite_background.jpg"); */
-    /* background-image: linear-gradient( #B63470, #691BB1); */
-    /* background-image: linear-gradient( #B63470, #5A00AD); */
-    /* background-color: #230454; */
-    /* background-image: url("https://www.dropbox.com/s/2ct0i6kc61vp0bh/wall.jpg?raw=1"); */
-    background-repeat: no-repeat;
-    height: 100%;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-.opacity {
-  width: 100%;
   height: 100%;
+  width: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  /* background-color: rgba(35,4,84,0.5) */
+  column-gap: 20px;
+}
+.invite-image{
+  /* background-image: url('@/assets/dark_background.jpg'); */
+  background-image: url("https://www.dropbox.com/s/2ct0i6kc61vp0bh/wall.jpg?raw=1");
+  background-size: cover;
+  /* background-position: center; */
+  background-repeat: repeat;
 }
 .title-container{
-  margin: auto;
-  width: 50%;
-  font-family: "Vibur", cursive;
+  margin-bottom: 0;
+  width: 60%;
   text-align: center;
-  font-size: 80px;
-  font-weight: bold;
 }
-.title-pink {
-  color: #FFE3F1;
-  text-shadow:
-    0 0 6px rgba(232,194,219,0.98),
-    0 0 30px rgba(232,194,219,0.34),
-    0 0 12px rgba(235,70,147,0.52),
-    0 0 22px rgba(235,70,147,0.92),
-    0 0 38px rgba(235,70,147,0.78),
-    0 0 60px rgba(235,70,147,0.92);
+.title{
+  /* font-family: 'Chillax-Regular'; */
+  font-family: 'Neon';
+  color: #FFADFE;
+  font-size: 8rem;
 }
-.title-pink-v2 {
-  color: #FFD9ED;
-  text-shadow:
-    0 0 6px rgba(224,202,227,0.98),
-    0 0 30px rgba(224,202,227,0.34),
-    0 0 12px rgba(242,29,143,0.52),
-    0 0 22px rgba(242,29,143,0.92),
-    0 0 38px rgba(242,29,143,0.78),
-    0 0 60px rgba(242,29,143,0.92);
+.subtitle-container{
+  width: 50%;
+  text-align: center;
+  margin-top: 0;
 }
-.title-pink-v3 {
-  color: #FFC7E1;
+.subtitle{
+  color: var(--dark-accent);
+  font-size: 2rem;
+  font-family: var(--subtitle-font);
+}
+.title-neon {
   text-shadow:
-    0 0 6px rgba(224,202,227,0.98),
-    0 0 30px rgba(224,202,227,0.34),
-    0 0 12px rgba(242,29,129,0.52),
-    0 0 22px rgba(242,29,129,0.92),
-    0 0 38px rgba(242,29,129,0.78),
-    0 0 60px rgba(242,29,129,0.92);
+    0 0 3px rgba(255,194,254,0.98),
+    0 0 30px rgba(255,194,254,0.34),
+    0 0 12px rgba(255,10,251,0.52),
+    0 0 22px rgba(255,10,251,0.92),
+    0 0 38px rgba(255,10,251,0.78),
+    0 0 60px rgba(255,10,251,0.92);
 }
 .title-flicker {
   color: #FFD9EB;
