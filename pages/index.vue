@@ -2,8 +2,7 @@
   <div class="holder">
     <div class="all-sections">
       <div id="landing" class="main-section">
-        <!-- <landing /> -->
-        <neon-landing />
+        <landing />
       </div>
       <div id="location" class="section">
         <location />
@@ -29,17 +28,15 @@
 </template>
 
 <script>
-// import Landing from '@/components/Landing'
-import NeonLanding from '@/components/NeonLanding'
+import Landing from '@/components/Landing'
 import Location from '@/components/Location'
 import { Slide } from 'vue-burger-menu'
 
 export default {
   components: {
     Location,
-    // Landing,
-    Slide,
-    NeonLanding
+    Landing,
+    Slide
   },
   head: {
     bodyAttrs: {
