@@ -3,12 +3,12 @@
 
 :root {
 --title-font: 'Chillax-Semibold';
---subtitle-font: 'Synonym-Semibold';
---body-font: 'Synonym-Regular';
+--subtitle-font: 'Synonym-Semiold';
+--body-font: 'Synonym-Medium';
 --main-color: #da4691;
 --light-accent: #dd9663; 
-/* --dark-accent: #812394;  */
---dark-accent: #7774c8;
+--dark-accent: #651B74; 
+--light-accent-2: #7774c8;
 --dark-shades: #240553;
 --light-shades: #F0E7EE;
 }

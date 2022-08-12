@@ -1,11 +1,16 @@
 <template>
-  <div class="images-container">
-    <outfit-image v-for="image in chosenImages" :key="image.imageName" :image-name="image.imageName" :image-path="image.imagePath" />
-    <!-- <masonry-wall :items="chosenImages" :column-width="300" :gap="5">
-      <template v-slot:default="{item}">
-        <outfit-image :image-name="item.imageName" :image-path="item.imagePath" />
-      </template>
-    </masonry-wall> -->
+  <div class="dress-code-card">
+    <span class="dress-code-title">
+      Qué ponerme?
+    </span>
+    <span class="dress-code-info">
+      Es una fiesta <span class="text-highlight">temática de los 80</span>, te invitamos a vestirte con ropa de la época!
+      <br>
+      Aquí hay unas fotos para inspirarte
+    </span>
+    <div class="images-container">
+      <outfit-image v-for="image in chosenImages" :key="image.imageName" :image-name="image.imageName" :image-path="image.imagePath" />
+    </div>
   </div>
 </template>
 
@@ -53,11 +58,43 @@ export default {
 </script>
 
 <style>
+.dress-code-card {
+    height: 90%;
+    width: 80%;
+    padding: 30px;
+    border-radius: 25px;
+    background-color: var(--light-accent);
+
+    display: flex;
+    flex-direction: column;
+}
+
+.dress-code-title{
+  font-family: var(--title-font);
+  color: var(--main-color);
+  font-size: 9vw;
+}
+
+.dress-code-info{
+  color: var(--light-shades);
+  font-size: 2.6vh;
+  margin-top: 20px;
+  margin-left: 15px;
+}
+
 .images-container {
-  width: 80%;
   display: flex;
-  direction: row;
+  flex-direction: row;
   flex-wrap: wrap;
+  justify-content: center;
+  margin: auto;
+  width: 95%;
+  padding: 20px;
+}
+
+.text-highlight {
+  font-family: var(--subtitle-font);
+  color: var(--dark-accent);
 }
 
 </style>

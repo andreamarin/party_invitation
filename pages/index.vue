@@ -4,11 +4,13 @@
       <div id="landing" class="main-section">
         <landing />
       </div>
-      <div id="location" class="section">
-        <location />
-      </div>
-      <div id="dress-code" class="section">
-        <dress-code />
+      <div class="other-sections">
+        <div id="location" class="section">
+          <location />
+        </div>
+        <div id="dress-code" class="section">
+          <dress-code />
+        </div>
       </div>
     </div>
     <div class="landing-menu-container">
@@ -52,6 +54,14 @@ export default {
 </script>
 
 <style>
+.other-sections {
+  background-image: url('@/assets/invite_background_color.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  padding-bottom: 40px;
+}
+
 .holder{
   display: block;
   position: relative;
@@ -78,7 +88,6 @@ export default {
 .section {
   min-height: 100vh;
   width: 100%;
-  margin-top: 20px;
   display: flex;
   justify-content: center;
   align-items: center;
