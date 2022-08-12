@@ -104,7 +104,7 @@ export default {
 }
 
 .bm-menu {
-  background-color: var(--dark-accent);
+  background-color: var(--dark-shades);
   color: var(--light-shades);
 }
 
@@ -113,7 +113,8 @@ export default {
 }
 
 .bm-burger-button{
-  background-color: var(--light-accent);
+  background-color: rgba(240, 231, 238, 0.7);
+  border: var(--light-shades) 2px solid;
   border-radius: 25px;
   width: 85px;
   height: 50px;
