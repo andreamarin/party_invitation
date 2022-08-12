@@ -7,6 +7,9 @@
       <div id="location" class="section">
         <location />
       </div>
+      <div id="dress-code" class="section">
+        <dress-code />
+      </div>
     </div>
     <div class="landing-menu-container">
       <Slide :close-on-navigation="true" no-overlay>
@@ -28,14 +31,16 @@
 </template>
 
 <script>
-// import Landing from '@/components/Landing'
-// import Location from '@/components/Location'
+import DressCode from '@/components/DressCode'
+import Landing from '@/components/Landing'
+import Location from '@/components/Location'
 import { Slide } from 'vue-burger-menu'
 
 export default {
   components: {
-    // Location,
-    // Landing,
+    DressCode,
+    Location,
+    Landing,
     Slide
   },
   head: {
