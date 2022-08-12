@@ -5,7 +5,8 @@
     </span>
     <span class="dress-code-info">
       Es una fiesta <span class="text-highlight">temática de los 80</span>, te invitamos a vestirte con ropa de la época!
-      <br>
+    </span>
+    <span class="dress-code-info">
       Aquí hay unas fotos para inspirarte
     </span>
     <div class="images-container">
@@ -71,7 +72,7 @@ export default {
 
 .dress-code-title{
   font-family: var(--title-font);
-  color: var(--main-color);
+  color: var(--dark-shades);
   font-size: 9vw;
 }
 
