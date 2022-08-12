@@ -46,7 +46,7 @@ export default {
 .location-title{
   font-family: var(--title-font);
   color: var(--main-color);
-  font-size: 15vw;
+  font-size: 9vw;
 }
 
 .venue-name {
