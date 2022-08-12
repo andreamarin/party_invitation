@@ -11,6 +11,9 @@
         <div id="dress-code" class="section">
           <dress-code />
         </div>
+        <div id="faq" class="section">
+          <faq />
+        </div>
       </div>
     </div>
     <div class="landing-menu-container">
@@ -34,6 +37,7 @@
 
 <script>
 import DressCode from '@/components/DressCode'
+import Faq from '@/components/Faq'
 import Landing from '@/components/Landing'
 import Location from '@/components/Location'
 import { Slide } from 'vue-burger-menu'
@@ -41,6 +45,7 @@ import { Slide } from 'vue-burger-menu'
 export default {
   components: {
     DressCode,
+    Faq,
     Location,
     Landing,
     Slide
