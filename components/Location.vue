@@ -14,7 +14,7 @@
           <br>Ciudad de México, CDMX
         </span>
         <span class="time">
-          Sábado 8 de octubre, 14:00hrs
+          Sábado 8 de octubre, 13:00hrs
         </span>
       </div>
       <div class="location-map-container">

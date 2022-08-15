@@ -11,6 +11,9 @@
         :answer="question.a"
       />
     </div>
+    <div>
+      Si tienes alguna duda adicional por favor contacta a Mario Medina (+52 55...) o a Laura Monroy (+52 55...)
+    </div>
   </div>
 </template>
 
@@ -24,9 +27,14 @@ export default {
   data () {
     return {
       questions: [
-        { q: 'Habrá comida?', a: 'Sí, se va a dar una comida de cuatro tiempos' },
-        { q: 'Tengo que llevar algo?', a: 'En el evento hay barra libre, sin embargo puedes traer la botella de tu preferencia. El descorche es libre.' },
-        { q: 'Qué mezcladores hay?', a: 'Los mezcladores usuales (coca, manzana, agua mineral, ...) y agua quina' }
+        { q: 'Habrá comida?', a: 'Sí, a las 14:00 se servirá la comida.' },
+        { q: 'Cuentan con menú infantil/vegetariano?', a: 'Sí hay alternativas infantil y vegetariana pero solo bajo pedido. Te pedimos nos avises lo antes posible si lo requieres.' },
+        { q: 'Qué habrá de tomar?', a: 'Refrescos, agua mineral, agua tónica y además, el salón ofrece barra libre nacional (tequila, ron, whisky, vodka y brandy).' },
+        { q: 'Habrá descorche libre?', a: 'Sí, puedes llevar el alcohol adicional que gustes, siempre y cuando sean botellas marbetadas.' },
+        { q: 'A qué hora termina el salón?', a: 'La fiesta en el salón acaba a las 19:00 hrs' },
+        { q: 'Hay estacionamiento?', a: 'Sí, el salón cuenta con el servicio adicional de valet parking.' },
+        { q: 'Hay fecha límite para confirmar mi asistencia?', a: 'Por favor avísanos a más tardar el 8 de septiembre para que podamos tener un conteo preciso.' },
+        { q: 'Puedo apoyar en algo?', a: 'Participando al máximo en el evento y una gran actitud para hacer de este, el mejor cumpleaños' }
       ]
 
     }

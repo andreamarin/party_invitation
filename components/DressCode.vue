@@ -1,10 +1,10 @@
 <template>
   <div class="dress-code-card">
     <span class="dress-code-title">
-      Qué ponerme?
+      Cómo tengo que ir?
     </span>
     <span class="dress-code-info">
-      Es una fiesta <span class="text-highlight">temática de los 80</span>, te invitamos a vestirte con ropa de la época!
+      Es una fiesta <span class="text-highlight">temática de los 80</span>, te invito a vestirte al estilo de la época.
     </span>
     <span class="dress-code-info">
       Aquí hay unas fotos para inspirarte

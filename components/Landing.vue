@@ -2,14 +2,17 @@
   <div class="invitation invite-image">
     <div class="title-container">
       <span class="title">
-        Mis 60!
+        Cumpleaños 60!
       </span>
     </div>
     <div class="subtitle-container">
       <span class="subtitle">
-        8 de octubre de 2022
+        Acompañame este 8 de octubre a las 13:00hrs a festejar en grande.
+
+        Laura
       </span>
     </div>
+    <!-- TODO: flecha de detalles -->
   </div>
 </template>
 
