@@ -70,7 +70,7 @@ export default {
 
 .menu-container{
   position: fixed;
-  top: 5px;
+  top: 0px;
 }
 
 .all-sections {
@@ -107,8 +107,8 @@ export default {
   background-color: rgba(240, 231, 238, 0.7);
   border: var(--light-shades) 2px solid;
   border-radius: 25px;
-  width: 85px;
-  height: 50px;
+  width: 60px;
+  height: 35px;
 }
 
 .line-style {
@@ -127,5 +127,16 @@ div.bm-burger-button > :nth-child(2) {
 
 div.bm-burger-button > :last-child {
   top: 65% !important;
+}
+
+@media only screen and (min-width: 768px) {
+.bm-burger-button{
+  width: 85px;
+  height: 50px;
+}
+
+.line-style {
+  height: 12%;
+}
 }
 </style>
