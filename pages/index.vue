@@ -9,6 +9,9 @@
         <dress-code id="dress-code" />
         <faq id="faq" />
       </div>
+      <div class="main-section">
+        <goodbye />
+      </div>
     </div>
     <div class="menu-container">
       <Slide :close-on-navigation="true" no-overlay>
@@ -32,6 +35,7 @@
 <script>
 import DressCode from '@/components/DressCode'
 import Faq from '@/components/Faq'
+import Goodbye from '@/components/Goodbye'
 import Landing from '@/components/Landing'
 import Location from '@/components/Location'
 import { Slide } from 'vue-burger-menu'
@@ -40,6 +44,7 @@ export default {
   components: {
     DressCode,
     Faq,
+    Goodbye,
     Location,
     Landing,
     Slide
