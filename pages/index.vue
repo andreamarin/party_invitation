@@ -5,18 +5,12 @@
         <landing />
       </div>
       <div class="other-sections">
-        <div id="location" class="section">
-          <location />
-        </div>
-        <div id="dress-code" class="section">
-          <dress-code />
-        </div>
-        <div id="faq" class="section">
-          <faq />
-        </div>
+        <location id="location" />
+        <dress-code id="dress-code" />
+        <faq id="faq" />
       </div>
     </div>
-    <div class="landing-menu-container">
+    <div class="menu-container">
       <Slide :close-on-navigation="true" no-overlay>
         <a id="landing-menu" href="#landing">
           <span>Inicio</span>
@@ -60,7 +54,7 @@ export default {
 
 <style>
 .other-sections {
-  padding-bottom: 40px;
+  padding-bottom: 50px;
 }
 
 .holder{
@@ -69,7 +63,7 @@ export default {
   height: 100%;
 }
 
-.landing-menu-container{
+.menu-container{
   position: fixed;
   top: 5px;
 }
@@ -87,11 +81,7 @@ export default {
 }
 
 .section {
-  min-height: 100vh;
   width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
 /* burger menu config */
