@@ -43,8 +43,16 @@ export default {
   border-radius: 4px;
   background-size: cover;
   background-position: center;
-  width: 200px;
-  height: 200px;
-  margin: 5px;
+  width: 125px;
+  height: 125px;
+  margin: 2px;
+}
+
+@media only screen and (min-width: 768px) {
+  .outfit-image{
+    width: 200px;
+    height: 200px;
+    margin: 5px;
+  }
 }
 </style>

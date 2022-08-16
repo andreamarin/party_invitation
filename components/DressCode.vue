@@ -1,5 +1,5 @@
 <template>
-  <div class="card dress-code-card">
+  <div class="card dress-code-card blue-neon-box">
     <span class="card-title dress-code-title">
       Cómo tengo que ir?
     </span>
@@ -60,14 +60,14 @@ export default {
 
 <style>
 .dress-code-card {
-    background-color: var(--light-accent);
+    /* background-color: var(--light-accent); */
 
     display: flex;
     flex-direction: column;
 }
 
 .dress-code-title{
-  color: var(--dark-shades);
+  color: var(--light-accent);
 }
 
 .dress-code-info{
@@ -81,14 +81,22 @@ export default {
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
-  margin: auto;
-  width: 95%;
-  padding: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 40px;
+  width: 100%;
 }
 
 .text-highlight {
   font-family: var(--subtitle-font);
-  color: var(--dark-accent);
+  color: var(--main-color);
+}
+
+@media only screen and (min-width: 768px) {
+  .images-container{
+    width: 95%;
+    padding: 20px;
+  }
 }
 
 </style>
