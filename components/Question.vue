@@ -27,28 +27,42 @@ export default {
 
 <style>
 .question-container{
-    padding-left: 20px;
-    padding-right: 10px;
     padding-top: 20px;
     padding-bottom: 20px;
-    margin-bottom: 10px;
 }
 .faq-question{
-    color: var(--main-color);
+    color: var(--light-accent);
 
     margin-bottom:6px;
     position: relative;
-    padding-left: 50px;
+    padding-left: 40px;
 }
 
 .faq-answer{
-    color: var(--dark-shades);
-    padding-left: 50px;
+    color: var(--light-shades);
+    padding-left:40px;
 }
 
 .q-icon{
     position: absolute;
     left: 0;
+}
+
+@media only screen and (min-width: 768px) {
+  .question-container{
+    padding-left: 20px;
+    padding-right: 10px;
+    margin-bottom: 10px;
+  }
+
+  .faq-question{
+    padding-left: 50px;
+  }
+
+  .faq-answer{
+    padding-left: 50px;
+  }
+
 }
 
 </style>
