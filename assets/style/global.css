@@ -1,10 +1,16 @@
 @import url('chillax.css');
 @import url('synonym.css');
 @import url('neon.css');
+@import url('neon_city.css');
+@import url('neon_planet.css');
+@import url('outrunner.css');
+@import url('retro_signature.css');
+@import url('retrolight.css');
+@import url('bratas.css');
 
 :root {
---title-font: 'Neon';
---subtitle-font: 'Synonym-Semibold';
+--title-font: 'Retrolight';
+--subtitle-font: 'Chillax-Medium';
 --body-font: 'Synonym-Medium';
 --light-accent-2: #F78CFF;
 --main-color: #FA94FF;
@@ -35,7 +41,7 @@
 
 .card-title{
   font-family: var(--title-font);
-  font-size: 6vh;
+  font-size: 5vh;
 }
 
 .card-subtitle{

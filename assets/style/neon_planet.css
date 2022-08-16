@@ -1,6 +1,6 @@
 @font-face {
-    font-family: 'Neon';
-    src: url('@/fonts/neon/neon.ttf') format('truetype');
+    font-family: 'Neon Planet';
+    src: url('@/fonts/neon_planet/neon_planet.otf') format('opentype');
         /* font-weight: 200 700; */
         font-display: swap;
         font-style: normal;

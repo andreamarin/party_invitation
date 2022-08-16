@@ -1,0 +1,15 @@
+@font-face {
+    font-family: 'Neon City Display';
+    src: url('@/fonts/neon_city/neon_city_display.otf') format('opentype');
+        /* font-weight: 200 700; */
+        font-display: swap;
+        font-style: normal;
+}
+
+@font-face {
+    font-family: 'Neon City Script';
+    src: url('@/fonts/neon_city/neon_city_script.otf') format('opentype');
+        /* font-weight: 200 700; */
+        font-display: swap;
+        font-style: normal;
+}
