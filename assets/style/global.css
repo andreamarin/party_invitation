@@ -25,8 +25,8 @@
 
 .card{
   height: 90%;
-  width: 70%;
-  padding: 40px;
+  width: 80%;
+  padding: 20px;
   border-radius: 25px;
   margin-top: 50px;
   margin-right: auto;
@@ -45,6 +45,14 @@
 
 .card-data{
   font-size: 2.6vh;
+}
+
+@media only screen and (min-width: 768px) {
+  .card{
+    width: 70%;
+    padding: 40px;
+  }
+
 }
 
 /* neon colors */
