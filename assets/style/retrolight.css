@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'Retrolight';
+    src: 
+        url('@/fonts/retrolight/retrolight.ttf') format('truetype'),
+        url('@/fonts/retrolight/retrolight.otf') format('opentype');
+    /* font-weight: 200 700; */
+    font-display: swap;
+    font-style: normal;
+}

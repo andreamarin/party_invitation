@@ -1,20 +1,190 @@
 @import url('chillax.css');
 @import url('synonym.css');
+@import url('neon.css');
+@import url('neon_city.css');
+@import url('neon_planet.css');
+@import url('outrunner.css');
+@import url('retro_signature.css');
+@import url('retrolight.css');
+@import url('bratas.css');
 
 :root {
---title-font: 'Chillax-Semibold';
---subtitle-font: 'Synonym-Semibold';
+--title-font: 'Retrolight';
+--subtitle-font: 'Chillax-Medium';
 --body-font: 'Synonym-Medium';
---main-color: #da4691;
---light-accent: #dd9663; 
---dark-accent: #651B74; 
---light-accent-2: #7774c8;
---dark-shades: #240553;
---light-shades: #F0E7EE;
+--light-accent-2: #F78CFF;
+--main-color: #FA94FF;
+--light-accent: #68FFFF; 
+--dark-accent: #4F56B7; 
+--dark-shades: #101235;
+--light-shades: #faf7f8;
 }
 
 .main-body {
   font-family: var(--body-font) !important;
-  background-color: var(--light-shades);
+  background-color: var(--dark-shades);
   margin: 0;
+  background-image: url('@/assets/dark_background.jpg');
+  background-size: cover;
+  background-repeat: repeat;
 }
+
+.card{
+  height: 90%;
+  width: 80%;
+  padding: 20px;
+  border-radius: 25px;
+  margin-top: 100px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.card-title{
+  font-family: var(--title-font);
+  font-size: 5vh;
+}
+
+.card-subtitle{
+  font-family: var(--subtitle-font);
+  font-size: 3vh;
+}
+
+.card-data{
+  font-size: 2.2vh;
+}
+
+@media only screen and (min-width: 768px) {
+  .card{
+    width: 70%;
+    padding: 40px;
+  }
+
+  .card-title{
+    font-size: 10vh;
+  }
+  
+  .card-subtitle{
+    font-size: 3.5vh;
+  }
+  
+  .card-data{
+    font-size: 2.6vh;
+  }
+}
+
+/* neon colors */
+.pink-neon-box {
+  border: var(--main-color) solid 2px;
+
+  box-shadow:
+    /* inner shadow */
+    inset 0 0 2px rgba(246,71,203,0.98),
+    inset 0 0 10px rgba(246,71,203,0.34),
+    inset 0 0 4px rgba(206,23,174,0.52),
+    inset 0 0 8px rgba(206,23,174,0.92),
+    inset 0 0 15px rgba(206,23,174,0.78),
+    /* inset 0 0 45px rgba(255,10,251,0.92), */
+
+    /* outer shadow */
+    0 0 2px rgba(246,71,203,0.98),
+    0 0 10px rgba(246,71,203,0.34),
+    0 0 4px rgba(206,23,174,0.52),
+    0 0 8px rgba(206,23,174,0.92),
+    0 0 15px rgba(206,23,174,0.78)
+    /* 0 0 45px rgba(255,10,251,0.92) */
+  ;
+}
+
+.blue-neon-box {
+  border: var(--light-accent) solid 2px;
+
+  box-shadow:
+    /* inner shadow */
+    inset 0 0 2px rgba(88,226,246,0.92),
+    inset 0 0 10px rgba(88,226,246,0.34),
+    inset 0 0 4px rgba(39,212,254,0.52),
+    inset 0 0 7px rgba(39,212,254,0.92),
+    inset 0 0 11px rgba(39,212,254,0.78),
+    /* inset 0 0 45px rgba(255,10,251,0.92), */
+
+    /* outer shadow */
+    0 0 2px rgba(88,226,246,0.92),
+    0 0 10px rgba(88,226,246,0.34),
+    0 0 4px rgba(39,212,254,0.52),
+    0 0 7px rgba(39,212,254,0.92),
+    0 0 11px rgba(39,212,254,0.78)
+    /* 0 0 45px rgba(255,10,251,0.92) */
+  ;
+}
+
+.blue-neon-box-v2{
+  box-shadow: 
+    0 0 2px 2px rgba(200, 230, 255, 0.5),
+    0 -2px 2px 2px rgba(200, 230, 255, 0.5) inset,
+
+    0 0 2px 2px rgba(100, 150, 255, 0.9),
+    0 0 2px 2px rgba(100, 150, 255, 1) inset,
+
+    0 0 12px 5px rgba(0, 50, 255, 0.9),
+    0 0 12px 5px rgba(0, 50, 255, 0.7) inset
+
+    /* 0 8px 30px 10px rgba(0, 0, 0, 0.8), 
+    0 8px 25px 11px rgba(0, 0, 0, 0.7) inset */
+  ;
+}
+
+.purple-neon-box {
+  border: var(--light-accent-2) solid 2px;
+
+  box-shadow:
+    /* inner shadow */
+    inset 0 0 2px rgba(221,125,252,0.92),
+    inset 0 0 10px rgba(221,125,252,0.34),
+    inset 0 0 4px rgba(171,61,237,0.52),
+    inset 0 0 8px rgba(171,61,237,0.92),
+    inset 0 0 15px rgba(171,61,237,0.78),
+    /* inset 0 0 45px rgba(255,10,251,0.92), */
+
+    /* outer shadow */
+    0 0 2px rgba(221,125,252,0.92),
+    0 0 10px rgba(221,125,252,0.34),
+    0 0 4px rgba(171,61,237,0.52),
+    0 0 8px rgba(171,61,237,0.92),
+    0 0 15px rgba(171,61,237,0.78)
+    /* 0 0 45px rgba(255,10,251,0.92) */
+  ;
+}
+
+.white-neon-box {
+  border: white solid 2px;
+
+  box-shadow:
+    /* inner shadow */
+    inset 0 0 2px rgba(214,211,206,0.92),
+    inset 0 0 10px rgba(214,211,206,0.34),
+    inset 0 0 4px rgba(205,205,207,0.52),
+    inset 0 0 7px rgba(205,205,207,0.92),
+    inset 0 0 11px rgba(205,205,207,0.78),
+    /* inset 0 0 45px rgba(255,10,251,0.92), */
+
+    /* outer shadow */
+    0 0 2px rgba(214,211,206,0.92),
+    0 0 10px rgba(214,211,206,0.34),
+    0 0 4px rgba(205,205,207,0.52),
+    0 0 7px rgba(205,205,207,0.92),
+    0 0 11px rgba(205,205,207,0.78)
+    /* 0 0 45px rgba(255,10,251,0.92) */
+  ;
+}
+
+.pink-neon-text {
+  color: #FFADFE;
+  text-shadow:
+    0 0 3px rgba(255,194,254,0.98),
+    0 0 30px rgba(255,194,254,0.34),
+    0 0 12px rgba(255,10,251,0.52),
+    0 0 22px rgba(255,10,251,0.92),
+    0 0 38px rgba(255,10,251,0.78),
+    0 0 60px rgba(255,10,251,0.92);
+}
+

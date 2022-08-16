@@ -1,6 +1,6 @@
 <template>
-  <div class="faq-card">
-    <span class="faq-title">
+  <div class="card faq-card pink-neon-box">
+    <span class="card-title faq-title">
       Preguntas
     </span>
     <div class="faq-questions">
@@ -11,8 +11,12 @@
         :answer="question.a"
       />
     </div>
-    <div>
-      Si tienes alguna duda adicional por favor contacta a Mario Medina (+52 55...) o a Laura Monroy (+52 55...)
+    <div class="card-data extra-info">
+      Si tienes alguna duda adicional por favor contacta a
+      <ul>
+        <li><span class="contact-highlight">Mario Medina</span> (55 6089 7165)</li>
+        <li><span class="contact-highlight">Laura Monroy</span> (55 6089 7165)</li>
+      </ul>
     </div>
   </div>
 </template>
@@ -28,7 +32,7 @@ export default {
     return {
       questions: [
         { q: 'Habrá comida?', a: 'Sí, a las 14:00 se servirá la comida.' },
-        { q: 'Cuentan con menú infantil/vegetariano?', a: 'Sí hay alternativas infantil y vegetariana pero solo bajo pedido. Te pedimos nos avises lo antes posible si lo requieres.' },
+        { q: 'Cuentan con menú infantil y/o vegetariano?', a: 'Sí hay alternativas infantil y vegetariana pero solo bajo pedido. Te pedimos nos avises lo antes posible si lo requieres.' },
         { q: 'Qué habrá de tomar?', a: 'Refrescos, agua mineral, agua tónica y además, el salón ofrece barra libre nacional (tequila, ron, whisky, vodka y brandy).' },
         { q: 'Habrá descorche libre?', a: 'Sí, puedes llevar el alcohol adicional que gustes, siempre y cuando sean botellas marbetadas.' },
         { q: 'A qué hora termina el salón?', a: 'La fiesta en el salón acaba a las 19:00 hrs' },
@@ -44,20 +48,14 @@ export default {
 
 <style>
 .faq-card {
-    height: 90%;
-    width: 80%;
-    padding: 30px;
-    border-radius: 25px;
-    background-color: var(--light-shades);
+    /* background-color: var(--light-shades); */
 
     display: flex;
     flex-direction: column;
 }
 
 .faq-title{
-  font-family: var(--title-font);
-  color: var(--dark-accent);
-  font-size: 9vw;
+  color: var(--main-color);
 }
 
 .faq-questions{
@@ -67,4 +65,15 @@ export default {
   justify-content: space-between;
 }
 
+.extra-info{
+  color: var(--light-shades);
+  font-size: 2vh !important;
+  margin-top: 20px;
+}
+
+.contact-highlight{
+  color: var(--light-accent-2);
+  font-size: 2vh !important;
+  margin-top: 20px;
+}
 </style>

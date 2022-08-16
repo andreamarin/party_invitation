@@ -5,18 +5,15 @@
         <landing />
       </div>
       <div class="other-sections">
-        <div id="location" class="section">
-          <location />
-        </div>
-        <div id="dress-code" class="section">
-          <dress-code />
-        </div>
-        <div id="faq" class="section">
-          <faq />
-        </div>
+        <location id="location" />
+        <dress-code id="dress-code" />
+        <faq id="faq" />
+      </div>
+      <div class="main-section">
+        <goodbye />
       </div>
     </div>
-    <div class="landing-menu-container">
+    <div class="menu-container">
       <Slide :close-on-navigation="true" no-overlay>
         <a id="landing-menu" href="#landing">
           <span>Inicio</span>
@@ -38,6 +35,7 @@
 <script>
 import DressCode from '@/components/DressCode'
 import Faq from '@/components/Faq'
+import Goodbye from '@/components/Goodbye'
 import Landing from '@/components/Landing'
 import Location from '@/components/Location'
 import { Slide } from 'vue-burger-menu'
@@ -46,6 +44,7 @@ export default {
   components: {
     DressCode,
     Faq,
+    Goodbye,
     Location,
     Landing,
     Slide
@@ -60,11 +59,7 @@ export default {
 
 <style>
 .other-sections {
-  background-image: url('@/assets/invite_background_color.jpg');
-  background-size: cover;
-  background-repeat: no-repeat;
-
-  padding-bottom: 40px;
+  padding-bottom: 50px;
 }
 
 .holder{
@@ -73,9 +68,9 @@ export default {
   height: 100%;
 }
 
-.landing-menu-container{
+.menu-container{
   position: fixed;
-  top: 5px;
+  top: 0px;
 }
 
 .all-sections {
@@ -91,11 +86,7 @@ export default {
 }
 
 .section {
-  min-height: 100vh;
   width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
 /* burger menu config */
@@ -116,8 +107,8 @@ export default {
   background-color: rgba(240, 231, 238, 0.7);
   border: var(--light-shades) 2px solid;
   border-radius: 25px;
-  width: 85px;
-  height: 50px;
+  width: 60px;
+  height: 35px;
 }
 
 .line-style {
@@ -136,5 +127,16 @@ div.bm-burger-button > :nth-child(2) {
 
 div.bm-burger-button > :last-child {
   top: 65% !important;
+}
+
+@media only screen and (min-width: 768px) {
+.bm-burger-button{
+  width: 85px;
+  height: 50px;
+}
+
+.line-style {
+  height: 12%;
+}
 }
 </style>

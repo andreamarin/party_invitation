@@ -1,9 +1,9 @@
 <template>
   <div class="question-container">
-    <div class="faq-question">
+    <div class="card-subtitle faq-question">
       <b class="q-icon">Q.</b>{{ question }}
     </div>
-    <div class="faq-answer">
+    <div class="card-data faq-answer">
       {{ answer }}
     </div>
   </div>
@@ -27,31 +27,42 @@ export default {
 
 <style>
 .question-container{
-    padding-left: 20px;
-    padding-right: 10px;
     padding-top: 20px;
     padding-bottom: 20px;
-    margin-bottom: 10px;
 }
 .faq-question{
-    font-family: var(--subtitle-font);
-    color: var(--main-color);
-    font-size: 3.5vh;
+    color: var(--light-accent);
 
     margin-bottom:6px;
     position: relative;
-    padding-left: 50px;
+    padding-left: 40px;
 }
 
 .faq-answer{
-    color: var(--dark-shades);
-    font-size: 2.8vh;
-    padding-left: 50px;
+    color: var(--light-shades);
+    padding-left:40px;
 }
 
 .q-icon{
     position: absolute;
     left: 0;
+}
+
+@media only screen and (min-width: 768px) {
+  .question-container{
+    padding-left: 20px;
+    padding-right: 10px;
+    margin-bottom: 10px;
+  }
+
+  .faq-question{
+    padding-left: 50px;
+  }
+
+  .faq-answer{
+    padding-left: 50px;
+  }
+
 }
 
 </style>

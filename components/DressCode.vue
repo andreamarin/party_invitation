@@ -1,12 +1,12 @@
 <template>
-  <div class="dress-code-card">
-    <span class="dress-code-title">
-      Cómo tengo que ir?
+  <div class="card dress-code-card blue-neon-box">
+    <span class="card-title dress-code-title">
+      ¿Cómo tengo que ir?
     </span>
-    <span class="dress-code-info">
+    <span class="card-data dress-code-info">
       Es una fiesta <span class="text-highlight">temática de los 80</span>, te invito a vestirte al estilo de la época.
     </span>
-    <span class="dress-code-info">
+    <span class="card-data dress-code-info">
       Aquí hay unas fotos para inspirarte
     </span>
     <div class="images-container">
@@ -60,27 +60,19 @@ export default {
 
 <style>
 .dress-code-card {
-    height: 90%;
-    width: 80%;
-    padding: 30px;
-    border-radius: 25px;
-    background-color: var(--light-accent);
+    /* background-color: var(--light-accent); */
 
     display: flex;
     flex-direction: column;
 }
 
 .dress-code-title{
-  font-family: var(--title-font);
-  color: var(--dark-shades);
-  font-size: 9vw;
+  color: var(--light-accent);
 }
 
 .dress-code-info{
-  color: var(--light-shades);
-  font-size: 2.6vh;
   margin-top: 20px;
-  margin-left: 15px;
+  color: var(--light-shades);
 }
 
 .images-container {
@@ -88,14 +80,22 @@ export default {
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
-  margin: auto;
-  width: 95%;
-  padding: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 40px;
+  width: 100%;
 }
 
 .text-highlight {
   font-family: var(--subtitle-font);
-  color: var(--dark-accent);
+  color: var(--main-color);
+}
+
+@media only screen and (min-width: 768px) {
+  .images-container{
+    width: 95%;
+    padding: 20px;
+  }
 }
 
 </style>

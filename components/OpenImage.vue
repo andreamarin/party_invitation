@@ -32,6 +32,7 @@ export default {
   }
   .full-image {
     max-height: 70%;
+    max-width: 85%;
   }
 
 </style>

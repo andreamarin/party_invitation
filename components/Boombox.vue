@@ -1,0 +1,174 @@
+
+<template>
+  <div class="main-container">
+    <div class="boombox-container">
+      <div class="blue-neon-box handle" />
+      <div class="boombox-box round-edge blue-neon-box">
+        <div class="top-boombox">
+          <div class="top-left-speaker smallest-speaker circle pink-neon-box" />
+          <div class="name-container purple-neon-box round-edge">
+            <span class="name">Laura</span>
+          </div>
+          <div class="top-right-speaker smallest-speaker circle pink-neon-box" />
+        </div>
+        <div class="bottom-boombox">
+          <!-- left speaker -->
+          <div class="left-speaker speaker circle purple-neon-box">
+            <div class="small-speaker circle blue-neon-box">
+              <div class="smallest-speaker circle pink-neon-box" />
+            </div>
+          </div>
+          <!-- cassette holder -->
+          <div class="round-edge pink-neon-box cassette-holder">
+            <div class="left-cassette smallest-speaker circle white-neon-box" />
+            <div class="right-cassette smallest-speaker circle white-neon-box" />
+          </div>
+          <!-- right speaker -->
+          <div class="right-speaker speaker circle purple-neon-box">
+            <div class="small-speaker circle blue-neon-box">
+              <div class="smallest-speaker circle pink-neon-box" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</template>
+
+<script>
+export default {
+
+}
+</script>
+
+<style>
+.main-container{
+    width: 100%;
+}
+
+.boombox-container{
+    width: 80%;
+    margin: auto;
+    aspect-ratio : 2 / 1;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.round-edge {
+  border-radius: 15px;
+}
+
+.circle {
+  border-radius: 50%;
+}
+
+.handle{
+    border-bottom: 0 !important;
+    width: 50%;
+    height: 15%;
+}
+
+.boombox-box{
+    width: 100%;
+    height: 85%;
+}
+
+.top-boombox{
+    width: 100%;
+    height: 30%;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.bottom-boombox{
+    width: 100%;
+    height: 70%;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.speaker{
+    width: 25%;
+    aspect-ratio : 1 / 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.small-speaker{
+    height: 65%;
+    aspect-ratio : 1 / 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.smallest-speaker{
+    height: 30%;
+    aspect-ratio : 1 / 1;
+}
+
+.left-speaker{
+    margin-left: 5%;
+}
+
+.right-speaker{
+    margin-right: 5%;
+}
+
+.top-left-speaker{
+    margin-left: 3%;
+}
+
+.top-right-speaker{
+    margin-right: 3%;
+}
+
+.name-container{
+    flex-grow: 2;
+    height: 65%;
+
+    margin-left: 5%;
+    margin-right: 5%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.name{
+    color: var(--light-shades);
+    font-family: var(--title-font);
+    /* font-size: 1.5em; */
+    font-size: calc(1.5vw + 1.5vh);
+}
+
+.cassette-holder{
+    width: 25%;
+    aspect-ratio: 2/1;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+.left-cassette {
+    margin-left: 20%;
+}
+.right-cassette {
+    margin-right: 20%;
+}
+
+</style>
