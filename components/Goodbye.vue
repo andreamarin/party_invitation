@@ -1,7 +1,7 @@
 <template>
   <div class="goodbye">
     <div class="goodbye-container">
-      <span class="title goodbye-phrase">
+      <span class="title goodbye-phrase pink-neon-text">
         ¡Te esperamos!
       </span>
     </div>

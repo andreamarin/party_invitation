@@ -18,7 +18,7 @@
   font-family: var(--body-font) !important;
   background-color: var(--dark-shades);
   margin: 0;
-  background-image: url('@/assets/dark_background_v2.jpg');
+  background-image: url('@/assets/dark_background.jpg');
   background-size: cover;
   background-repeat: repeat;
 }
@@ -169,5 +169,16 @@
     0 0 11px rgba(205,205,207,0.78)
     /* 0 0 45px rgba(255,10,251,0.92) */
   ;
+}
+
+.pink-neon-text {
+  color: #FFADFE;
+  text-shadow:
+    0 0 3px rgba(255,194,254,0.98),
+    0 0 30px rgba(255,194,254,0.34),
+    0 0 12px rgba(255,10,251,0.52),
+    0 0 22px rgba(255,10,251,0.92),
+    0 0 38px rgba(255,10,251,0.78),
+    0 0 60px rgba(255,10,251,0.92);
 }
 
