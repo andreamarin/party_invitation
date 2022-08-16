@@ -4,6 +4,8 @@ fonts/**
 assets/*.jpg
 assets/*.png
 
+assets/outfits/*
+
 # Created by .ignore support plugin (hsz.mobi)
 ### Node template
 # Logs

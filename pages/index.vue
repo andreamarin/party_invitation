@@ -4,8 +4,16 @@
       <div id="landing" class="main-section">
         <landing />
       </div>
-      <div id="location" class="section">
-        <location />
+      <div class="other-sections">
+        <div id="location" class="section">
+          <location />
+        </div>
+        <div id="dress-code" class="section">
+          <dress-code />
+        </div>
+        <div id="faq" class="section">
+          <faq />
+        </div>
       </div>
     </div>
     <div class="landing-menu-container">
@@ -28,12 +36,16 @@
 </template>
 
 <script>
+import DressCode from '@/components/DressCode'
+import Faq from '@/components/Faq'
 import Landing from '@/components/Landing'
 import Location from '@/components/Location'
 import { Slide } from 'vue-burger-menu'
 
 export default {
   components: {
+    DressCode,
+    Faq,
     Location,
     Landing,
     Slide
@@ -47,6 +59,14 @@ export default {
 </script>
 
 <style>
+.other-sections {
+  background-image: url('@/assets/invite_background_color.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  padding-bottom: 40px;
+}
+
 .holder{
   display: block;
   position: relative;
@@ -73,7 +93,6 @@ export default {
 .section {
   min-height: 100vh;
   width: 100%;
-  margin-top: 20px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -85,7 +104,7 @@ export default {
 }
 
 .bm-menu {
-  background-color: var(--dark-accent);
+  background-color: var(--dark-shades);
   color: var(--light-shades);
 }
 
@@ -94,7 +113,8 @@ export default {
 }
 
 .bm-burger-button{
-  background-color: var(--light-accent);
+  background-color: rgba(240, 231, 238, 0.7);
+  border: var(--light-shades) 2px solid;
   border-radius: 25px;
   width: 85px;
   height: 50px;
