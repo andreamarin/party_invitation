@@ -1,5 +1,5 @@
 <template>
-  <div class="card location-card">
+  <div class="card location-card purple-neon-box">
     <span class="card-title location-title">
       Dónde?
     </span>
@@ -39,10 +39,11 @@ export default {
 
 <style>
 .location-card {
-    background-color: var(--dark-shades);
+    /* background-color: var(--dark-shades); */
 }
+
 .location-title{
-  color: var(--main-color);
+  color: var(--light-accent-2);
 }
 
 .venue-name {
