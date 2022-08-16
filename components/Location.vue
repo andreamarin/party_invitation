@@ -20,8 +20,6 @@
       <div class="location-map-container">
         <iframe
           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3763.3396430862354!2d-99.22320435963339!3d19.397725691103464!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d201a4d5256331%3A0xcd24100d00151cf0!2zU2Fsw7NuIEdhdWTDrS4!5e0!3m2!1sen!2smx!4v1660614111778!5m2!1sen!2smx"
-          width="400"
-          height="400"
           class="venue-map"
           allowfullscreen=""
           loading="lazy"
@@ -93,6 +91,14 @@ export default {
   border: 0;
   min-height: 300px;
   width: 100%;
+}
+
+@media only screen and (min-width: 768px) {
+  .venue-map {
+    border: 0;
+    min-height: 300px;
+    width: 100%;
+  }
 }
 
 </style>

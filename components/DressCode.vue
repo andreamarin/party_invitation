@@ -72,7 +72,6 @@ export default {
 
 .dress-code-info{
   margin-top: 20px;
-  margin-left: 15px;
   color: var(--light-shades);
 }
 
