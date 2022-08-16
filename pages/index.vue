@@ -60,10 +60,6 @@ export default {
 
 <style>
 .other-sections {
-  background-image: url('@/assets/invite_background_color.jpg');
-  background-size: cover;
-  background-repeat: no-repeat;
-
   padding-bottom: 40px;
 }
 

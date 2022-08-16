@@ -1,9 +1,9 @@
 <template>
   <div class="question-container">
-    <div class="faq-question">
+    <div class="card-subtitle faq-question">
       <b class="q-icon">Q.</b>{{ question }}
     </div>
-    <div class="faq-answer">
+    <div class="card-data faq-answer">
       {{ answer }}
     </div>
   </div>
@@ -34,9 +34,7 @@ export default {
     margin-bottom: 10px;
 }
 .faq-question{
-    font-family: var(--subtitle-font);
     color: var(--main-color);
-    font-size: 3.5vh;
 
     margin-bottom:6px;
     position: relative;
@@ -45,7 +43,6 @@ export default {
 
 .faq-answer{
     color: var(--dark-shades);
-    font-size: 2.8vh;
     padding-left: 50px;
 }
 

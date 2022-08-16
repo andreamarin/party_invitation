@@ -1,9 +1,9 @@
 <template>
   <div class="invitation invite-image">
     <div class="title-container">
-      <boombox />
+      <!-- <boombox /> -->
       <span class="title title-neon">
-        Cumpleaños 60!
+        ¡Mi cumpleaños 60!
       </span>
     </div>
     <div class="subtitle-container">
@@ -18,10 +18,10 @@
 </template>
 
 <script>
-import Boombox from './Boombox.vue'
+// import Boombox from './Boombox.vue'
 
 export default {
-  components: { Boombox }
+  // components: { Boombox }
 }
 </script>
 
@@ -35,20 +35,13 @@ export default {
   align-items: center;
   column-gap: 20px;
 }
-.invite-image{
-  /* background-image: url('@/assets/dark_background.jpg'); */
-  background-image: url("https://www.dropbox.com/s/2ct0i6kc61vp0bh/wall.jpg?raw=1");
-  background-size: cover;
-  background-repeat: repeat;
-}
 .title-container{
   margin-bottom: 0;
   width: 60%;
   text-align: center;
 }
 .title{
-  /* font-family: 'Chillax-Regular'; */
-  font-family: 'Neon';
+  font-family: var(--title-font);
   color: #FFADFE;
   font-size: 8rem;
 }

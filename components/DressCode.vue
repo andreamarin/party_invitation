@@ -1,12 +1,12 @@
 <template>
-  <div class="dress-code-card">
-    <span class="dress-code-title">
+  <div class="card dress-code-card">
+    <span class="card-title dress-code-title">
       Cómo tengo que ir?
     </span>
-    <span class="dress-code-info">
+    <span class="card-data dress-code-info">
       Es una fiesta <span class="text-highlight">temática de los 80</span>, te invito a vestirte al estilo de la época.
     </span>
-    <span class="dress-code-info">
+    <span class="card-data dress-code-info">
       Aquí hay unas fotos para inspirarte
     </span>
     <div class="images-container">
@@ -60,10 +60,6 @@ export default {
 
 <style>
 .dress-code-card {
-    height: 90%;
-    width: 80%;
-    padding: 30px;
-    border-radius: 25px;
     background-color: var(--light-accent);
 
     display: flex;
@@ -71,16 +67,13 @@ export default {
 }
 
 .dress-code-title{
-  font-family: var(--title-font);
   color: var(--dark-shades);
-  font-size: 9vw;
 }
 
 .dress-code-info{
-  color: var(--light-shades);
-  font-size: 2.6vh;
   margin-top: 20px;
   margin-left: 15px;
+  color: var(--light-shades);
 }
 
 .images-container {

@@ -1,6 +1,6 @@
 <template>
-  <div class="faq-card">
-    <span class="faq-title">
+  <div class="card faq-card">
+    <span class="card-title faq-title">
       Preguntas
     </span>
     <div class="faq-questions">
@@ -44,10 +44,6 @@ export default {
 
 <style>
 .faq-card {
-    height: 90%;
-    width: 80%;
-    padding: 30px;
-    border-radius: 25px;
     background-color: var(--light-shades);
 
     display: flex;
@@ -55,9 +51,7 @@ export default {
 }
 
 .faq-title{
-  font-family: var(--title-font);
   color: var(--dark-accent);
-  font-size: 9vw;
 }
 
 .faq-questions{

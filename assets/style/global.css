@@ -3,7 +3,7 @@
 @import url('neon.css');
 
 :root {
---title-font: 'Chillax-Semibold';
+--title-font: 'Neon';
 --subtitle-font: 'Synonym-Semibold';
 --body-font: 'Synonym-Medium';
 --main-color: #da4691;
@@ -16,6 +16,30 @@
 
 .main-body {
   font-family: var(--body-font) !important;
-  background-color: var(--light-shades);
+  background-color: var(--dark-shades);
   margin: 0;
+  background-image: url('@/assets/dark_background_v2.jpg');
+  background-size: cover;
+  background-repeat: repeat;
+}
+
+.card{
+  height: 90%;
+  width: 80%;
+  padding: 30px;
+  border-radius: 25px;
+}
+
+.card-title{
+  font-family: var(--title-font);
+  font-size: 9vw;
+}
+
+.card-subtitle{
+  font-family: var(--subtitle-font);
+  font-size: 5vh;
+}
+
+.card-data{
+  font-size: 2vh;
 }
