@@ -1,7 +1,7 @@
 <template>
   <div class="card dress-code-card blue-neon-box">
     <span class="card-title dress-code-title">
-      Cómo tengo que ir?
+      ¿Cómo tengo que ir?
     </span>
     <span class="card-data dress-code-info">
       Es una fiesta <span class="text-highlight">temática de los 80</span>, te invito a vestirte al estilo de la época.

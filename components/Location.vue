@@ -1,7 +1,7 @@
 <template>
   <div class="card location-card purple-neon-box">
     <span class="card-title location-title">
-      Dónde?
+      ¿Dónde?
     </span>
     <div class="location-data">
       <div class="location-info">

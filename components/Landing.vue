@@ -1,13 +1,13 @@
 <template>
   <div class="invitation invite-image">
     <div class="title-container">
-      <span class="title title-pink-neon">
-        ¡Mi cumpleaños 60!
+      <span class="title pink-neon-text">
+        Bienvenida a los 60
       </span>
     </div>
     <div class="subtitle-container">
       <span class="subtitle">
-        Acompáñame este 8 de octubre a festejar en grande
+        ¡vamos a festejar en grande mi cumpleaños este <span class="text-highlight">8 de octubre</span>!
       </span>
     </div>
     <!-- TODO: flecha de detalles -->
@@ -35,8 +35,7 @@ export default {}
 }
 .title{
   font-family: var(--title-font);
-  color: #FFADFE;
-  font-size: 7vh;
+  font-size: 6vh;
 }
 .subtitle-container{
   width: 80%;
@@ -47,15 +46,6 @@ export default {}
   color: var(--light-shades);
   font-size: 3vh;
   font-family: var(--subtitle-font);
-}
-.title-pink-neon {
-  text-shadow:
-    0 0 3px rgba(255,194,254,0.98),
-    0 0 30px rgba(255,194,254,0.34),
-    0 0 12px rgba(255,10,251,0.52),
-    0 0 22px rgba(255,10,251,0.92),
-    0 0 38px rgba(255,10,251,0.78),
-    0 0 60px rgba(255,10,251,0.92);
 }
 
 @media only screen and (min-width: 768px) {
