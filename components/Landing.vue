@@ -36,14 +36,14 @@ export default {
   column-gap: 20px;
 }
 .title-container{
-  margin-bottom: 0;
-  width: 60%;
+  min-width: 60%;
+  max-width: 90%;
   text-align: center;
 }
 .title{
   font-family: var(--title-font);
   color: #FFADFE;
-  font-size: 8rem;
+  font-size: 7vh;
 }
 .subtitle-container{
   width: 50%;
