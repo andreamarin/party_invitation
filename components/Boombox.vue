@@ -15,7 +15,7 @@
           <!-- left speaker -->
           <div class="left-speaker speaker circle purple-neon-box">
             <div class="small-speaker circle blue-neon-box">
-              <div class="smallest-speaker circle pink-neon-box" />
+              <div class="smallest-speaker circle pink-neon-box speaker-animation" />
             </div>
           </div>
           <!-- cassette holder -->
@@ -26,7 +26,7 @@
           <!-- right speaker -->
           <div class="right-speaker speaker circle purple-neon-box">
             <div class="small-speaker circle blue-neon-box">
-              <div class="smallest-speaker circle pink-neon-box" />
+              <div class="smallest-speaker circle pink-neon-box speaker-animation" />
             </div>
           </div>
         </div>
@@ -153,12 +153,6 @@ export default {
     font-family: 'Chillax-Semibold';
     font-size: calc(1.5vw + 1.5vh);
     letter-spacing: 2px;
-/*
-    text-shadow:
-      0 0 2px rgba(214,211,206,0.92),
-      0 0 10px rgba(214,211,206,0.34),
-      0 0 4px rgba(205,205,207,0.52),
-      0 0 8px rgba(205,205,207,0.92); */
 
     text-shadow:
       0 0 3px rgba(214,211,206,0.92),
@@ -177,11 +171,26 @@ export default {
     align-items: center;
     justify-content: space-around;
 }
+
 .left-cassette {
     margin-left: 20%;
 }
+
 .right-cassette {
     margin-right: 20%;
+}
+
+.speaker-animation{
+  animation: speakers-pump 0.7s infinite;
+}
+
+@keyframes speakers-pump {
+  from {
+    height: 20%;
+  }
+  to {
+    height: 30%;
+  }
 }
 
 </style>
