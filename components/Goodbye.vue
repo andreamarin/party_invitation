@@ -1,11 +1,11 @@
 <template>
   <div class="goodbye">
+    <boombox />
     <div class="goodbye-container">
       <span class="title goodbye-phrase pink-neon-text">
         ¡Te esperamos!
       </span>
     </div>
-    <boombox />
   </div>
 </template>
 
@@ -30,12 +30,8 @@ export default {
 .goodbye-container{
   width: 80%;
   text-align: center;
-  margin-bottom: 40px;
+  margin-top: 40px;
 
-}
-
-.goodbye-phrase{
-  /* color: var(--purple-main-color); */
 }
 
 </style>
