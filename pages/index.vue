@@ -15,16 +15,16 @@
     </div>
     <div class="menu-container">
       <Slide :close-on-navigation="true" no-overlay>
-        <a id="landing-menu" href="#landing">
+        <a id="landing-menu" v-scroll-to="'#landing'" href="#">
           <span>Inicio</span>
         </a>
-        <a id="location-menu" href="#location">
+        <a id="location-menu" v-scroll-to="'#location'" href="#">
           <span>Lugar</span>
         </a>
-        <a id="dressCode-menu" href="#dress-code">
+        <a id="dressCode-menu" v-scroll-to="'#dress-code'" href="#">
           <span>Vestimenta</span>
         </a>
-        <a id="faq-menu" href="#faq">
+        <a id="faq-menu" v-scroll-to="'#faq'" href="#">
           <span>Preguntas frecuentes</span>
         </a>
       </Slide>
