@@ -1,33 +1,57 @@
 <template>
   <div class="invitation invite-image">
-    <div class="title-container">
-      <span class="title pink-neon-text">
-        Bienvenida a los 60
-      </span>
+    <div class="landing-data-container">
+      <div class="title-container">
+        <span class="title pink-neon-text">
+          Bienvenida a los 60
+        </span>
+      </div>
+      <div class="subtitle-container">
+        <span class="subtitle">
+          ¡vamos a festejar en grande mi cumpleaños este <span class="text-highlight">8 de octubre</span>!
+        </span>
+      </div>
     </div>
-    <div class="subtitle-container">
-      <span class="subtitle">
-        ¡vamos a festejar en grande mi cumpleaños este <span class="text-highlight">8 de octubre</span>!
-      </span>
+    <div class="scroll-down-container">
+      <scroll-down-arrow href="#location" />
     </div>
-    <!-- TODO: flecha de detalles -->
   </div>
 </template>
 
 <script>
+import ScrollDownArrow from '@/components/ScrollDownArrow'
 
-export default {}
+export default {
+  components: {
+    ScrollDownArrow
+  }
+}
 </script>
 
 <style>
-.invitation {
-  height: 100%;
+.scroll-down-container{
   width: 100%;
+  height: 10%;
+}
+
+.landing-data-container{
+  width: 100%;
+  height: 90%;
+
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  column-gap: 20px;
+}
+
+.invitation {
+  height: 100%;
+  width: 100%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 .title-container{
   width: 90%;
