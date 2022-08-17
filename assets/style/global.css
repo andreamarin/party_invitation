@@ -1,12 +1,6 @@
 @import url('chillax.css');
 @import url('synonym.css');
-@import url('neon.css');
-@import url('neon_city.css');
-@import url('neon_planet.css');
-@import url('outrunner.css');
-@import url('retro_signature.css');
 @import url('retrolight.css');
-@import url('bratas.css');
 
 :root {
 --title-font: 'Retrolight';
