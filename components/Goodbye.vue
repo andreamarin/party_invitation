@@ -5,15 +5,12 @@
         ¡Te esperamos!
       </span>
     </div>
-    <boombox />
   </div>
 </template>
 
 <script>
-import Boombox from './Boombox.vue'
 
 export default {
-  components: { Boombox }
 }
 </script>
 
@@ -35,7 +32,28 @@ export default {
 }
 
 .goodbye-phrase{
-  /* color: var(--purple-main-color); */
+  animation: neon-flicker .08s ease-in-out infinite alternate;
+}
+
+@keyframes neon-flicker {
+  from {
+    text-shadow:
+    0 0 6px rgba(255,194,254,0.92),
+    0 0 30px rgba(255,194,254,0.34),
+    0 0 12px rgba(255,10,251,0.52),
+    0 0 21px rgba(255,10,251,0.92),
+    0 0 34px rgba(255,10,251,0.78),
+    0 0 54px rgba(255,10,251,0.92);
+  }
+  to {
+    text-shadow:
+    0 0 6px rgba(255,194,254,0.98),
+    0 0 30px rgba(255,194,254,0.42),
+    0 0 12px rgba(255,10,251,0.58),
+    0 0 22px rgba(255,10,251,0.84),
+    0 0 38px rgba(255,10,251,0.88),
+    0 0 60px rgba(255,10,251,1);
+  }
 }
 
 </style>
