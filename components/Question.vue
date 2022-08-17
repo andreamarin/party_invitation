@@ -41,6 +41,7 @@ export default {
 .faq-answer{
     color: var(--light-shades);
     padding-left:40px;
+    text-align: justify;
 }
 
 .q-icon{

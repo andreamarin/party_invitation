@@ -43,8 +43,8 @@ export default {
   border-radius: 4px;
   background-size: cover;
   background-position: center;
-  width: 125px;
-  height: 125px;
+  width: 140px;
+  height: 140px;
   margin: 2px;
 }
 

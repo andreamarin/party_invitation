@@ -9,7 +9,7 @@
           Salón Gaudí
         </span>
         <span class="card-data address">
-          GRUPO FORESTA Av Constituyentes 800
+          Av Constituyentes 800
           <br>Lomas Altas, Miguel Hidalgo, 11100
           <br>Ciudad de México, CDMX
         </span>

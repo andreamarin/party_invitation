@@ -7,7 +7,7 @@
       Es una fiesta <span class="text-highlight">temática de los 80</span>, te invito a vestirte al estilo de la época.
     </span>
     <span class="card-data dress-code-info">
-      Aquí hay unas fotos para inspirarte
+      Aquí hay unas fotos para inspirarte (dale click a una para verla más grande).
     </span>
     <div class="images-container">
       <outfit-image v-for="image in chosenImages" :key="image.imageName" :image-name="image.imageName" :image-path="image.imagePath" />

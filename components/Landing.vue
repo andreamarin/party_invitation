@@ -8,7 +8,7 @@
       </div>
       <div class="subtitle-container">
         <span class="subtitle">
-          ¡vamos a festejar en grande mi cumpleaños este <span class="date-highlight">8 de octubre</span>!
+          ¡ven a festejar en grande mi cumpleaños este <span class="date-highlight">8 de octubre</span>!
         </span>
       </div>
     </div>
@@ -63,12 +63,12 @@ export default {
 }
 .subtitle-container{
   width: 80%;
-  text-align: center;
   margin-top: 60px;
+  text-align: center;
 }
 .subtitle{
   color: var(--light-shades);
-  font-size: 3vh;
+  font-size: 2.6vh;
   font-family: var(--subtitle-font);
 }
 
