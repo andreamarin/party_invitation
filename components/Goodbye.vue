@@ -1,5 +1,6 @@
 <template>
   <div class="goodbye">
+    <boombox />
     <div class="goodbye-container">
       <span class="title goodbye-phrase pink-neon-text">
         ¡Te esperamos!
@@ -22,20 +23,12 @@ export default {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-
-  /* background-blend-mode: hard-light;
-  background-image:
-  url('@/assets/dark_background.jpg'),
-  radial-gradient(circle, #7277d5, #696fd3, #6166d0, #585ece, #4f55cb, #4a50c7, #444ac4, #3f45c0, #3c42bb, #3a3fb6, #373db2, #343aad) */
-  /* radial-gradient(circle, #262a7e, #242878, #222672, #20246c, #1e2266, #1c2060, #1b1e59, #191c53, #171a4b, #141744, #12153c, #101235) */
-  /* ; */
 }
 
 .goodbye-container{
   width: 80%;
   text-align: center;
-  margin-bottom: 40px;
-
+  margin-top: 40px;
 }
 
 .goodbye-phrase{
