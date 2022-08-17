@@ -7,7 +7,7 @@
         <div class="top-boombox">
           <div class="top-left-speaker smallest-speaker circle pink-neon-box" />
           <div class="name-container purple-neon-box round-edge">
-            <span class="name">LAURA'S 60</span>
+            <span class="name">LAURA</span>
           </div>
           <div class="top-right-speaker smallest-speaker circle pink-neon-box" />
         </div>
