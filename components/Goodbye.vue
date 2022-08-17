@@ -1,6 +1,5 @@
 <template>
   <div class="goodbye">
-    <boombox />
     <div class="goodbye-container">
       <span class="title goodbye-phrase pink-neon-text">
         ¡Te esperamos!
