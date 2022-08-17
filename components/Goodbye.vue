@@ -32,7 +32,8 @@ export default {
 }
 
 .goodbye-phrase{
-  animation: neon-flicker .08s ease-in-out infinite alternate;
+  animation:
+    blink 12s infinite;
 }
 
 @keyframes neon-flicker {
@@ -53,6 +54,33 @@ export default {
     0 0 22px rgba(255,10,251,0.84),
     0 0 38px rgba(255,10,251,0.88),
     0 0 60px rgba(255,10,251,1);
+  }
+}
+
+@keyframes blink {
+  20%,
+  24%,
+  55% {
+    color: #111;
+    text-shadow: none;
+  }
+
+  0%,
+  19%,
+  21%,
+  23%,
+  25%,
+  54%,
+  56%,
+  100% {
+  text-shadow:
+    0 0 6px rgba(255,194,254,0.98),
+    0 0 30px rgba(255,194,254,0.42),
+    0 0 12px rgba(255,10,251,0.58),
+    0 0 22px rgba(255,10,251,0.84),
+    0 0 38px rgba(255,10,251,0.88),
+    0 0 60px rgba(255,10,251,1);
+    color: #FFADFE;
   }
 }
 

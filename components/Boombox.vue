@@ -47,7 +47,7 @@ export default {
 }
 
 .boombox-container{
-    width: 80%;
+    width: 70%;
     margin: auto;
     aspect-ratio : 2 / 1;
 
@@ -190,6 +190,12 @@ export default {
   }
   to {
     height: 30%;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .boombox-container{
+    width: 30%;
   }
 }
 
