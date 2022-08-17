@@ -5,7 +5,7 @@
         <path class="arrow" d="M 0 0 L 30 20 L 60 0" />
       </svg>
     </div>
-    <div class="details-text">
+    <div class="details-text blue-neon-text">
       Detalles
     </div>
   </a>
@@ -35,7 +35,7 @@ export default {
 
 .arrow{
     fill: transparent;
-    stroke: var(--main-color);
+    stroke: var(--blue-main-color);
     stroke-width: 2px;
 }
 
@@ -48,14 +48,14 @@ export default {
 
 .shadow{
     -webkit-filter:
-        drop-shadow(0px 0px 2px #F30AFF)
-        drop-shadow(0px 0px 5px #F30AFF)
-        drop-shadow(0px 0px 10px #F30AFF)
+        drop-shadow(0px 0px 2px #68FFFF)
+        drop-shadow(0px 0px 5px #68FFFF)
+        drop-shadow(0px 0px 10px #68FFFF)
     ;
     filter:
-        drop-shadow(0px 0px 2px #F30AFF)
-        drop-shadow(0px 0px 5px #F30AFF)
-        drop-shadow(0px 0px 10px #F30AFF)
+        drop-shadow(0px 0px 2px #68FFFF)
+        drop-shadow(0px 0px 5px #68FFFF)
+        drop-shadow(0px 0px 10px #68FFFF)
     ;
 }
 
@@ -65,16 +65,8 @@ export default {
 }
 
 .details-text{
-    color: #FFD6FF;
     font-family: 'Synonym-Regular';
-    font-size: 1.6vh;
-
-    text-shadow:
-    0 0 3px rgba(255,194,254,0.98),
-    0 0 30px rgba(255,194,254,0.34),
-    0 0 12px rgba(255,10,251,0.52),
-    0 0 22px rgba(255,10,251,0.92),
-    0 0 38px rgba(255,10,251,0.78);
+    font-size: 2vh;
 }
 
 @keyframes jumpInfinite {

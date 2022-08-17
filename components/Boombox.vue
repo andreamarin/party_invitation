@@ -7,7 +7,7 @@
         <div class="top-boombox">
           <div class="top-left-speaker smallest-speaker circle pink-neon-box" />
           <div class="name-container purple-neon-box round-edge">
-            <span class="name">Laura</span>
+            <span class="name">LAURA'S 60</span>
           </div>
           <div class="top-right-speaker smallest-speaker circle pink-neon-box" />
         </div>
@@ -150,9 +150,22 @@ export default {
 
 .name{
     color: var(--light-shades);
-    font-family: var(--title-font);
-    /* font-size: 1.5em; */
+    font-family: 'Chillax-Semibold';
     font-size: calc(1.5vw + 1.5vh);
+    letter-spacing: 2px;
+/*
+    text-shadow:
+      0 0 2px rgba(214,211,206,0.92),
+      0 0 10px rgba(214,211,206,0.34),
+      0 0 4px rgba(205,205,207,0.52),
+      0 0 8px rgba(205,205,207,0.92); */
+
+    text-shadow:
+      0 0 3px rgba(214,211,206,0.92),
+      0 0 30px rgba(214,211,206,0.34),
+      0 0 12px rgba(205,205,207,0.52),
+      0 0 22px rgba(205,205,207,0.92),
+      0 0 40px rgba(205,205,207,0.78);
 }
 
 .cassette-holder{

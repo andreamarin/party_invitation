@@ -91,7 +91,7 @@ export default {
 
 /* burger menu config */
 .bm-burger-bars {
-  background-color: var(--dark-accent);
+  background-color: #8F43B6;
 }
 
 .bm-menu {
@@ -115,6 +115,7 @@ export default {
   height: 12%;
   width: 60%;
   margin: auto;
+  border-radius: 10px;
 }
 
 div.bm-burger-button > :first-child {

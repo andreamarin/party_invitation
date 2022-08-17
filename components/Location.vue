@@ -1,5 +1,5 @@
 <template>
-  <div class="card location-card purple-neon-box">
+  <div class="card location-card large-purple-neon-box">
     <span class="card-title location-title">
       ¿Dónde?
     </span>
@@ -41,12 +41,12 @@ export default {
 }
 
 .location-title{
-  color: var(--light-accent-2);
+  color: var(--purple-main-color);
 }
 
 .venue-name {
   padding-right: 10px;
-  color: var(--light-accent);
+  color: var(--blue-main-color);
   margin-block-start: 30px;
   margin-block-end: 10px;
 }
@@ -58,7 +58,7 @@ export default {
 
 .time {
   padding-right: 10px;
-  color: var(--light-accent);
+  color: var(--blue-main-color);
   font-size: 3vh;
   margin-block-start: 40px;
 }

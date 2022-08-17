@@ -8,7 +8,7 @@
       </div>
       <div class="subtitle-container">
         <span class="subtitle">
-          ¡vamos a festejar en grande mi cumpleaños este <span class="text-highlight">8 de octubre</span>!
+          ¡vamos a festejar en grande mi cumpleaños este <span class="date-highlight">8 de octubre</span>!
         </span>
       </div>
     </div>
@@ -31,12 +31,12 @@ export default {
 <style>
 .scroll-down-container{
   width: 100%;
-  height: 10%;
+  height: 15%;
 }
 
 .landing-data-container{
   width: 100%;
-  height: 90%;
+  height: 85%;
 
   display: flex;
   flex-direction: column;
@@ -70,6 +70,10 @@ export default {
   color: var(--light-shades);
   font-size: 3vh;
   font-family: var(--subtitle-font);
+}
+
+.date-highlight{
+  color: var(--purple-main-color);
 }
 
 @media only screen and (min-width: 768px) {

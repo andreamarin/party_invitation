@@ -1,5 +1,5 @@
 <template>
-  <div class="card faq-card pink-neon-box">
+  <div class="card faq-card large-pink-neon-box">
     <span class="card-title faq-title">
       Preguntas
     </span>
@@ -55,7 +55,7 @@ export default {
 }
 
 .faq-title{
-  color: var(--main-color);
+  color: var(--pink-main-color);
 }
 
 .faq-questions{
@@ -72,7 +72,7 @@ export default {
 }
 
 .contact-highlight{
-  color: var(--light-accent-2);
+  color: var(--purple-main-color);
   font-size: 2vh !important;
   margin-top: 20px;
 }

@@ -35,7 +35,7 @@ export default {
 }
 
 .goodbye-phrase{
-  color: var(--light-accent-2);
+  /* color: var(--purple-main-color); */
 }
 
 </style>

@@ -31,7 +31,7 @@ export default {
     padding-bottom: 20px;
 }
 .faq-question{
-    color: var(--light-accent);
+    color: var(--blue-main-color);
 
     margin-bottom:6px;
     position: relative;
