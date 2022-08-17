@@ -24,7 +24,7 @@
   font-family: var(--body-font) !important;
   background-color: var(--dark-shades);
   margin: 0;
-  background-image: url('@/assets/purple_dark_background.png');
+  background-image: url('@/assets/purple_dark_background.jpg');
   background-size: cover;
   background-repeat: repeat;
 }
