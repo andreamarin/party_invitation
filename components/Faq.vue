@@ -14,8 +14,8 @@
     <div class="card-data extra-info">
       Si tienes alguna duda adicional por favor contacta a
       <ul>
-        <li><span class="contact-highlight">Mario Medina</span> (55 6089 7165)</li>
-        <li><span class="contact-highlight">Laura Monroy</span> (55 6089 7165)</li>
+        <li><a href="/mario_contact.vcf" target="_blank" rel="nofollow" class="contact-highlight">Mario Medina</a> (55 6089 7165)</li>
+        <li><a href="/laura_contact.vcf" target="_blank" rel="nofollow" class="contact-highlight">Laura Monroy</a> (55 1796 1233)</li>
       </ul>
     </div>
   </div>

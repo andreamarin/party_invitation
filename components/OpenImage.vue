@@ -25,6 +25,8 @@ export default {
     height: 100%;
     background-color: rgba(17, 2, 39, 0.9);
 
+    z-index: 1;
+
     display: flex;
     flex-direction: column;
     justify-content: center;

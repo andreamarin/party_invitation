@@ -8,17 +8,14 @@ export default {
 
   // Global page headers (https://go.nuxtjs.dev/config-head)
   head: {
-    title: process.env.npm_package_name || '',
+    title: 'Mis sesenta',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
       { hid: 'description', name: 'description', content: '' }
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
-      { rel: 'stylesheet', href: 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css' },
-      { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css2?family=Armata&display=swap' },
-      { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=Vibur' }
+      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
     ]
   },
 
@@ -42,8 +39,7 @@ export default {
 
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
-    ['vue-scrollto/nuxt', { duration: 700, easing: 'ease-out' }]
-  ],
+    ['vue-scrollto/nuxt', { duration: 700, easing: 'ease-out' }]],
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
