@@ -3,11 +3,11 @@
     <div class="ceremony-data">
       <div class="ceremony-info">
         <span class="card-subtitle party-invite">
-          ¡Acompáñame a festejar mis <span class="age-highlight">31</span> años en mi casa!
+          ¡Acompáñame a festejar mis <span class="age-highlight">32</span> años en mi casa!
         </span>
 
         <span class="card-data information">
-          Previo al festejo se llevará a cabo una misa para recordar a mi abuelo <span class="name-highlight">Leandro Medina</span> y mi tío <span class="name-highlight">Alejandro Pérez</span>.
+          También se llevará a cabo una misa para festejar y recordar a mi abuelo <span class="name-highlight">Leandro Medina</span> y a mi tío <span class="name-highlight">Alejandro Pérez</span>.
         </span>
         <!-- <div class="name-container">
           <span class="card-subtitle people-name">
