@@ -1,24 +1,27 @@
-@import url('chillax.css');
-@import url('synonym.css');
-@import url('retrolight.css');
+@import url('densmore.css');
+@import url('bookman.css');
+@import url('cooper-black.css');
+
 
 :root {
---title-font: 'Retrolight';
---subtitle-font: 'Chillax-Medium';
---body-font: 'Synonym-Regular';
+--title-font: 'Densmore';
+--subtitle-font: 'CooperBlack-Regular';
+--body-font: 'Bookman-Regular';
 --purple-main-color: #CC74FB;
---pink-main-color: #F474FB;
---blue-main-color: #74E9FB; 
---dark-accent: #4F56B7; 
---dark-shades: #101235;
---light-shades: #faf7f8;
+/* --wine-main-color: #6c161f; */
+--wine-main-color:#671F23;
+--yellow-main-color: #DAAD2F; 
+--dark-accent: #967522; 
+--dark-shades: #0E0806;
+/* --light-shades: #faf7f8; */
+--light-shades:#E6DAC6
 }
 
 .main-body {
   font-family: var(--body-font) !important;
-  background-color: var(--dark-shades);
+  background-color: var(--wine-main-color);
   margin: 0;
-  background-image: url('@/assets/purple_dark_background.jpg');
+  /* background-image: url('@/assets/purple_dark_background.jpg'); */
   background-size: cover;
   background-repeat: repeat;
 }
@@ -40,11 +43,20 @@
 
 .card-subtitle{
   font-family: var(--subtitle-font);
-  font-size: 2.6vh;
+  font-size: 3vh;
+}
+
+.card-subtitle-small{
+  font-family: var(--subtitle-font);
+  font-size: 2.2vh;
 }
 
 .card-data{
   font-size: 2.2vh;
+}
+
+.card-data-small{
+  font-size: 2vh;
 }
 
 @media only screen and (min-width: 768px) {
@@ -60,9 +72,17 @@
   .card-subtitle{
     font-size: 3.5vh;
   }
+
+  .card-subtitle-small{
+    font-size: 2.8vh;
+  }
   
   .card-data{
-    font-size: 2.6vh;
+    font-size: 2.4vh;
+  }
+
+  .card-data-small{
+    font-size: 2.2vh;
   }
 }
 

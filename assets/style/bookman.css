@@ -1,0 +1,31 @@
+@font-face {
+    font-family: 'Bookman-Italic';
+    src: 
+        url('@/fonts/bookman/Bookman Italic.ttf') format('truetype');
+    font-display: swap;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Bookman-BoldItalic';
+    src: 
+        url('@/fonts/bookman/Bookman Bold Italic.ttf') format('truetype');
+    font-display: swap;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Bookman-Bold';
+    src: 
+        url('@/fonts/bookman/Bookman Bold.ttf') format('truetype');
+    font-display: swap;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Bookman-Regular';
+    src: 
+        url('@/fonts/bookman/bookman-regular.ttf') format('truetype');
+    font-display: swap;
+    font-style: normal;
+}

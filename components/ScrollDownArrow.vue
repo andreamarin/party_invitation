@@ -4,8 +4,11 @@
       <svg class="arrow-svg shadow">
         <path class="arrow" d="M 0 0 L 30 20 L 60 0" />
       </svg>
+      <!-- <svg class="arrow-svg shadow">
+        <path class="arrow" d="M 0 0 L 30 20 L 60 0" />
+      </svg> -->
     </div>
-    <div class="details-text blue-neon-text">
+    <div class="details-text">
       Detalles
     </div>
   </a>
@@ -35,7 +38,7 @@ export default {
 
 .arrow{
     fill: transparent;
-    stroke: var(--blue-main-color);
+    stroke: var(--yellow-main-color);
     stroke-width: 2px;
 }
 
@@ -46,7 +49,7 @@ export default {
     animation: jumpInfinite 1.5s infinite;
 }
 
-.shadow{
+/* .shadow{
     -webkit-filter:
         drop-shadow(0px 0px 2px #68FFFF)
         drop-shadow(0px 0px 5px #68FFFF)
@@ -57,7 +60,7 @@ export default {
         drop-shadow(0px 0px 5px #68FFFF)
         drop-shadow(0px 0px 10px #68FFFF)
     ;
-}
+} */
 
 .arrow-containter {
     height: 40px;
@@ -65,7 +68,8 @@ export default {
 }
 
 .details-text{
-    font-family: 'Synonym-Regular';
+    font-family: var(--body-font);
+    color: var(--yellow-main-color);
     font-size: 2vh;
 }
 

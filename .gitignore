@@ -2,6 +2,7 @@
 fonts/**
 assets/*.jpg
 assets/*.png
+assets/*.webp
 assets/outfits/*
 *.vcf
 # Created by .ignore support plugin (hsz.mobi)

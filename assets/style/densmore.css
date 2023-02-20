@@ -1,0 +1,8 @@
+@font-face {
+    font-family: 'Densmore';
+    src: 
+        url('@/fonts/densmore/densmore.otf') format('opentype');
+    /* font-weight: 200 700; */
+    font-display: swap;
+    font-style: normal;
+}
